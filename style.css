@@ -1,0 +1,506 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffffff;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    background-color: #ffffff;
+}
+
+.navbar .menu1{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .menu1 a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.navbar .logo{
+    margin: -10px;
+}
+
+.navbar .register{
+    margin-top: -10px;
+    padding: 17px 50px;
+    border-radius: 10px;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image:linear-gradient(to top right, rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0)),url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    margin-top: -5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.hero-section h2{
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.hero-section button{
+    width: 250px;
+    height: 74px;
+    background-color: #1d4ed8;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 400px;
+    
+}
+
+.hero-text{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin-top: -50px;
+}
+
+.speaker{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.speaker h2{
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.speaker .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.speaker .container .card{
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.027);
+    padding-bottom: 20px;
+    border:1px solid #e5e7eb;
+    
+}
+
+.speaker .container .card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.speaker .container .card .info{
+    padding: 0 20px;
+}
+
+.speaker .container .card .info .p1{
+    color: #2563eb;
+    font-size: 16;
+    font-weight: 600;
+}
+
+.speaker .container .card .info h3{
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.speaker .container .card .info .p2{
+    margin-top: -12px;
+}
+
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.card3h2{
+    color: #0d1b2a;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card3p1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin-top: -25px;
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+}
+
+.card4{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card5{
+    width: 335px;
+    height: 412px;
+    padding:30px 0 30px 30px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.048);
+    border-radius:10px;
+    background-color:#ffffff;
+    border:1px solid #e5e7eb;
+
+}
+
+.card5 h2{
+    margin-top: -13px;
+    font-size:44px ;
+    font-weight: 700;
+    color: #0d1b2a;
+
+}
+
+.card5 .p6{
+    margin-top: -42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    margin-bottom: 30px;
+}
+
+.card5 .p5{
+    color:#888888;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.card5 hr{
+    border: 1px solid #e5e7eb;
+
+}
+
+.card5 li{
+    color: #333333;
+    margin-left: -20px;
+    line-height: 2;
+}
+
+.card5 li::marker{
+    color:#2563eb;
+}
+
+.card9{
+    background-color: #0D1B2A;
+}
+.card9 h2{
+    color: #ffffff;
+}
+
+.card9 li{
+    color: rgb(255 255 255 / 80%); ;
+}
+
+.card5 .btn5{
+    width: 304px;
+    height: 45px;
+    margin-top: 10px;
+    border: 1px solid #2563eb;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 0px 20px  #2564eb2a;
+
+    color: #2563eb;
+}
+.card5 .btn7{
+    width: 304px;
+    height: 45px;
+    margin-top: 10px;
+    border: 1px solid #0d1b2a;
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 0px 20px #0d1b2a27 ;
+
+    color: #0d1b2a;
+}
+.card5 .btn6{
+    width: 304px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 0px 20px  #2564eb52;
+
+    color: #ffffff;
+}
+
+
+
+.footer0{
+    background-color: #111F2E;
+    padding: 35px 0;
+    margin-top: 100px;
+}
+
+
+.footer1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer1 p,a{
+    color: rgb(255 255 255 / 40%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer1 p{
+    margin-left: -300px;
+}
+
+
+.footer5{
+
+    margin-right: -250px;
+    
+}
+/* AI Genareted section Start Hear  */
+
+
+
+
+
+/* ============================================
+   EVENT COUNTDOWN SECTION - CSS
+   ============================================ */
+
+/* পুরো সেকশনের গাঢ় ব্যাকগ্রাউন্ড */
+
+
+
+.countdown-section {
+  background: linear-gradient(180deg, #05070d 0%, #0a0e1a 50%, #05070d 100%);
+  padding: 120px 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Inter", -apple-system, sans-serif;   /* ⬅️ এই লাইনটা নতুন */
+}
+
+/* সেকশনের পিছনে নীল আভা (glow) */
+.countdown-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59,130,246,0.25) 0%, rgba(59,130,246,0) 70%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ভিতরের সব কনটেন্ট মাঝখানে আনার জন্য কনটেইনার */
+.countdown-container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* বড় টাইটেল */
+.countdown-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+}
+
+/* ৪টা বক্স পাশাপাশি সাজানোর জন্য */
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+/* একেকটা কাউন্টডাউন কার্ড - গ্লাসমরফিজম */
+.countdown-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  min-width: 120px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* বড় সংখ্যা (Days, Hours...) */
+.countdown-number {
+  display: block;
+  font-size: 56px;
+  font-weight: 800;
+  color: #3b82f6;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+/* সংখ্যার নিচের লেবেল (Days লেখাটা) */
+.countdown-label {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Quote */
+.countdown-quote {
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Register বাটন */
+.countdown-btn {
+  background: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - COUNTDOWN SECTION
+   ============================================ */
+
+/* ট্যাবলেট এবং ছোট স্ক্রিনের জন্য (768px বা তার কম) */
+@media (max-width: 768px) {
+
+  .countdown-section {
+    padding: 80px 20px;
+  }
+
+  .countdown-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .countdown-timer {
+    gap: 16px;
+  }
+
+  .countdown-box {
+    min-width: 100px;
+    padding: 20px 14px;
+  }
+
+  .countdown-number {
+    font-size: 40px;
+  }
+
+  .countdown-quote {
+    font-size: 17px;
+    padding: 0 10px;
+  }
+
+}
+
+/* মোবাইল ফোনের জন্য (480px বা তার কম) */
+@media (max-width: 480px) {
+
+  .countdown-title {
+    font-size: 26px;
+  }
+
+  .countdown-timer {
+    gap: 10px;
+  }
+
+  .countdown-box {
+    min-width: 70px;
+    padding: 16px 10px;
+    border-radius: 14px;
+  }
+
+  .countdown-number {
+    font-size: 28px;
+  }
+
+  .countdown-label {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+.countdown-btn {
+  background: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;   /* ⬅️ এটা যদি না থাকে, এই লাইনটা যোগ করো */
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+}
+
+
+/* যাদের সিস্টেমে "Reduce Motion" চালু আছে, তাদের জন্য এনিমেশন বন্ধ/কমানো */
+@media (prefers-reduced-motion: reduce) {
+  .countdown-title,
+  .countdown-box,
+  .countdown-quote,
+  .countdown-btn,
+  .countdown-glow {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
+
+/* AI Genareted section End Hear  */
