@@ -170,7 +170,13 @@ body{
     border-radius:10px;
     background-color:#ffffff;
     border:1px solid #e5e7eb;
+    transition: all 0.4s ease;
 
+}
+
+.card5:hover{
+    transform: scale(1.05);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
 }
 
 .card5 h2{
@@ -262,6 +268,13 @@ body{
 }
 
 
+.btn5,.btn6,.btn7{   
+    transition: all .3s ease;
+}
+
+.btn5:hover,.btn6:hover,.btn7:hover{
+    transform: scale(1.08) translateY(-3px);
+}
 
 .footer0{
     background-color: #111F2E;
